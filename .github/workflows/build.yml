@@ -3,5 +3,5 @@ jobs:
     first-job: 
        runs-on: window-lates, macos-latest, ubantu-latest
        steps: 
-          -run: node --version
-          -run: npm --version
+          - run: node --version
+          - run: npm --version
