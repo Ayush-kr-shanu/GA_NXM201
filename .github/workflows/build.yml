@@ -1,7 +1,7 @@
 on: push
 jobs: 
     second-job: 
-       runs-on: ubantu-latest
+       runs-on: ubuntu-latest
        steps: 
           - run: node --version
           - run: npm --version
