@@ -1,7 +1,7 @@
 on: push
 jobs: 
     first-job: 
-       runs-on: window-lates, macos-latest, ubantu-latest
+       runs-on: window-lates
        steps: 
           - run: node --version
           - run: npm --version
