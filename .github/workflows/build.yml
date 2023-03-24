@@ -1,7 +1,9 @@
 on: push
 jobs: 
-    first-job: 
+    second-job: 
        runs-on: window-lates
        steps: 
           - run: node --version
           - run: npm --version
+          - uses: actions/checkout@v3
+          - run: node index.js
